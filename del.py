@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import scikit-learn
 
 # Load the trained model
-filename = r'knn_model.sav'
+filename = r'knn_model.pkl'
 loaded_model = joblib.load(open(filename, 'rb'))
 
 # Define the correct column names
