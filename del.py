@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import scikit-learn
 
 # Load the trained model
 filename = r'knn_model.sav'
